@@ -1,7 +1,7 @@
 import React from "react";
 
-const BookImage = () => {
-  return <img src="/images/177189.jpg" alt="Book Image" />;
+const BookImage = ({ image }) => {
+  return <img src={image} alt="Pirates of the Carribean" />;
 };
 
 export default BookImage;

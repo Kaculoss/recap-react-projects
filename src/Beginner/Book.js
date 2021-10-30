@@ -3,10 +3,10 @@ import BookAuthor from "./BookAuthor";
 import BookImage from "./BookImage";
 import BookTitle from "./BookTitle";
 
-function Book({ title, author }) {
+function Book({ title, author, image }) {
   return (
     <div className="book">
-      <BookImage />
+      <BookImage image={`/keezy/books/${image}`} />
       <BookTitle title={title} />
       <BookAuthor author={author} />
     </div>

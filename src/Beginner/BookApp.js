@@ -7,7 +7,12 @@ function BookApp() {
   return (
     <div className="bookapp">
       {data.map((book) => (
-        <Book key={book.id} author={book.author} title={book.title} />
+        <Book
+          key={book.id}
+          author={book.author}
+          title={book.title}
+          image={book.image}
+        />
       ))}
     </div>
   );

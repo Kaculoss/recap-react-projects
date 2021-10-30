@@ -1,8 +1,8 @@
 import React from "react";
-import BookApp from "./Beginner/BookApp";
+import Program from "./Beginner/BookApp";
 
 function App() {
-  return <BookApp />;
+  return <Program />;
 }
 
 export default App;
