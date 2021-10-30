@@ -5,7 +5,7 @@ import BookTitle from "./BookTitle";
 
 function Book({ title, author }) {
   return (
-    <div>
+    <div className="book">
       <BookImage />
       <BookTitle title={title} />
       <BookAuthor author={author} />
