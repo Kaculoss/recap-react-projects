@@ -1,5 +1,5 @@
 import React from "react";
-import Setup from "./1-useState/7-useState-array-2";
+import Setup from "./2-useEffect/1-useEffect-basics";
 import "./Advanced.css";
 
 function Advanced() {
