@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { data } from "../data";
 
-const UseStateArray = () => {
+const UseStateArray2 = () => {
   const [people, setPeople] = useState(data);
 
   const removeItem = (id) => {
@@ -25,4 +25,4 @@ const UseStateArray = () => {
   );
 };
 
-export default UseStateArray;
+export default UseStateArray2;
